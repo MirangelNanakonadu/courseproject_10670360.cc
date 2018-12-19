@@ -29,8 +29,8 @@ int main()
      int arr2=0;
      int arr3=0;
 
-       cout << "Press 1 Edit/Delete/Add Student" << endl;
-       cout << "Press 2 Edit/Delete/Add Staff" << endl;
+       cout << "Press 1 Edit/obliterate/Add Student" << endl;
+       cout << "Press 2 Edit/obliterate/Add Staff" << endl;
 
 
        cout << endl;
@@ -43,14 +43,14 @@ int main()
     {
         case  1 :
 
-         cout << "You Can Edit/Add/Delete Student Records.. \n";
+         cout << "You Can Edit/obliterate/Add Student Records.. \n";
 
     do
    {
        student stud[20];
 
        cout << "Press 1 to Add New Record" << endl;
-       cout << "Press 2 to Delete Record" << endl;
+       cout << "Press 2 to obliterate Record" << endl;
        cout << "Press 3 to Edit Record" << endl;
        cout << "Press 4 to Display Record" << endl;
 
@@ -67,7 +67,7 @@ int main()
         case  1 :
 
 
-        cout << "\n Enter the info of the student " << arr+1 << " is :" << endl;
+        cout << "\n Enter the details of the student " << arr+1 << " is :" << endl;
 
         cout << "\t Enter the ID No. = ";
     int id2;
@@ -276,7 +276,7 @@ int main()
        student stud[20];
 
        cout << "Press 1 to Add New Record" << endl;
-       cout << "Press 2 to Delete Record" << endl;
+       cout << "Press 2 to obliterate Record" << endl;
        cout << "Press 3 to Edit Record" << endl;
        cout << "Press 4 to Display Record" << endl;
 
@@ -327,7 +327,7 @@ int main()
     }
     else
     {
-        cout << "This Record Already Exists \n";
+        cout << "This Record is already available \n";
     }
 
 
